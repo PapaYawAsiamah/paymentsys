@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext, useState } from "react";
-import AppContext from "../context";
+import AppContext from "../Context";
 import { Box, Button, IconButton, TextField } from "@mui/material";
 import { Add, Delete, Edit, Search } from "@mui/icons-material";
 import MembersForm from "../Reusable/MembersForm";
