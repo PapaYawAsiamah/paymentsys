@@ -27,7 +27,7 @@ import { db } from "../firebase";
 
 const Payment = ({ editID, credit, setCredit, handleSubmit, handle, isConfirm }) => {
   // console.log(editID)
-  const { members } = useContext(AppContext);
+  
 
   // const [payHistory, setPayHistory] = useState([]);
 
