@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
-import { AppWrapper } from "../context";
+import { AppWrapper } from "../Context";
 
 function MyApp({ Component, pageProps }) {
   return (
