@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 
-const login = () => {
+const Login = () => {
     const router = useRouter();
     const[Password, setPassword] = useState();
     console.log(Password)
@@ -26,4 +26,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
