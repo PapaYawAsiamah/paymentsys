@@ -8,15 +8,15 @@ const Login = () => {
     const[Password, setPassword] = useState();
     console.log(Password)
     const defPass = 12345;
-    const Login = (e) => {
-       e.preventDefault();
-       if(Password === defPass){
-          Cookies.set("loggedin", true);
-          router.push("/Members")
-       } else{
-        alert("wrong")
-       }
-    }
+        const Login = (e) => {
+        e.preventDefault();
+        if(Password === defPass){
+            Cookies.set("loggedin", true);
+            router.push("/Members")
+        } else{
+            alert("wrong")
+        }
+        }
   return (
    <>
    <input type="number"  onChange={(e) => {setPassword(Number(e.target.value))}}/>

@@ -5,10 +5,10 @@ export default function middleware(req){
     let url = req.url;
 
     if(!verify && url.includes("/Members")){
-        return NextResponse.redirect("http://localhost:3000/")
+        return NextResponse.redirect("https://paymentsyst-git-main-papayawasiamah.vercel.app/")
     }
 
-    if(verify && url === "http://localhost:3000/"){
-        return NextResponse.redirect("http://localhost:3000/Members")
+    if(verify && url === "https://paymentsyst-git-main-papayawasiamah.vercel.app/"){
+        return NextResponse.redirect("https://paymentsyst-git-main-papayawasiamah.vercel.app/Members")
     }
 }
